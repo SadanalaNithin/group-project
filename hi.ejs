@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        .a{
+                background-color: red;
+                width:99%;
+                height: 35px;
+                text-align: center;
+            }
+           
+            .cart2{
+                height:10px;
+            }
+            .cartsymbol{
+                margin-bottom: 0%;
+            }
+          
+            .a2{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoDweFgieDg1KlIWOXMKhD8_2wtxz-VP2YmA&usqp=CAU");
+                background-size: cover;
+            }
+            .b{
+                margin-left:5%;
+                height:150px;
+                width:300px;
+            }
+            .c{
+                margin-left:40%;
+                height:150px;
+                width:300px;
+            }
+            .d{
+                margin-left:40%;
+                height:150px;
+                width:200px;
+            }
+            .e{
+                height:30px;
+                width: 30px;
+            }
+            .seeds{
+                display:flex;
+                justify-content: space-between;
+                padding-top: 20px;
+                flex-wrap: wrap;
+            }
+            .product1{
+                height:250px;
+                width:250px;
+            }
+            .product2{
+                height:250px;
+                width:250px;
+            }
+            .product3{
+                height:250px;
+                width:250px;
+            }
+            .product4{
+                height:250px;
+                width:250px;
+            }.product5{
+                height:250px;
+                width:250px;
+            }
+            .product6{
+                height:250px;
+                width:250px;
+            }
+            .product7{
+                height:250px;
+                width:250px;
+            }
+            .product8{
+                height:250px;
+                width:250px;
+            }
+            .heading{
+                display: flex;
+            }
+            .btn{
+                height:35px;
+                margin-top: 20px;
+                width:4vw;
+            }
+            .addbtn{
+                height: 5vh;
+                width:10vw
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="heading">
+        <h2 class="a"><u>FARMERS NEEDS</u></h2>
+        <button class="btn" id="cart2"><i class="bi bi-cart-check" onclick="showCart()"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform:  msFilter;"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg></i></button>
+    </div>
+    <div class="a2">
+        <div>
+            <img class="b" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBlllq4k_OjFX2dw-OjLaf445tZqe-Qs2T7qNBxZAuNL5wUtdNRupKX59WHoWxajQjys4&usqp=CAU">
+            <img class="c" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBlllq4k_OjFX2dw-OjLaf445tZqe-Qs2T7qNBxZAuNL5wUtdNRupKX59WHoWxajQjys4&usqp=CAU">
+        </div>
+            <img class="d" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmmkYbUP79y96DcQ-jcNeRkykH9ci0dfI82w&usqp=CAU">
+    </div>
+    <section class="seeds">
+        <div class="n1">
+            <img id="addimg1is" class="product1" src="https://2.wlimg.com/product_images/bc-small/2023/1/4383965/pr-126-paddy-seeds-1674539360-6707810.jpeg">
+            <div class="des">
+                <h2 class="ttl" id="addimg1ts">SEEDS OF RICE</h2>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <h4 id="addimg1ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg1s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n2">
+            <img id="addimg2is" class="product2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Rpm65BzIKgzuyQEenLNgWydlmgNNDJc2Xw&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg2ts"> SEEDS OF SUN FLOWER</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg2ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg2s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n3">
+            <img id="addimg3is" class="product3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1ULFnUfgoIb4ZA2agGSI_ntGHxO_UgsKzg&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg3ts">SEEDS OF MANGO</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg3ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg3s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n4">
+            <img id="addimg4is" class="product4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcjSuiQpCRz-DT4sy5o3wApBE0I0n33LeyQ&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg4ts"> SEEDS OF TOMATO</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg4ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg4s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n1">
+            <img id="addimg5is" class="product5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLoZTioQ7fKOKzqNcALO9wIk_aSmhWHypnA&usqp=CAU">
+            <div class="des">
+                <h2 class="ttl" id="addimg5ts">SEEDS OF WHEAT</h2>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <h4 id="addimg5ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg5s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n2">
+            <img id="addimg6is" class="product6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRhuc6VulCyHCxZhzdHZ_HocnMc1nHivyHfA&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg6ts"> SEEDS OF ONION</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg6ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg6s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n3">
+            <img id="addimg7is" class="product7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpo9axKSXPN2ET0uF1eMQW-rKMvUPtrnxOKg&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg7ts">SEEDS OF SUGARCANE</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg7ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg7s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <div class="n4">
+            <img id="addimg8is" class="product8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5zxqYWIocKmqz_C0KZa5U8mpJmJgdhFUag&usqp=CAU">
+            <div class="des">
+              <h2 class="ttl" id="addimg8ts"> SEEDS OF COTTON</h2>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h4 id="addimg8ps">488</h4>
+            </div>
+            <button class="addbtn" onclick="addimg8s()"><i class="bi bi-cart4" id=""></i>ADD TO CART</button>
+        </div>
+        <!-- Other product entries go here -->
+    </section>
+
+    <!-- Cart section -->
+    <div id="cart" style="display: none;">
+        <h3>Your Cart</h3>
+        <ul id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </ul>
+    </div>
+    <form action="/hi" method="post">
+       
+    
+</form>
+    <script> 
+    
+    function addimg1s() {
+        window.alert("Added to cart successfully");
+        let image = document.getElementById("addimg1is").src;
+        let ttl = document.getElementById("addimg1ts").innerText;
+        let price = document.getElementById("addimg1ps").innerText;
+        console.log(ttl, price);
+        addToCart(image, ttl, price);
+    }
+    function addimg2s()
+    {
+        window.alert("Added to cart sucessfully");
+        let image = document.getElementById("addimg2is").src;
+        console.log(image);
+        let ttl = document.getElementById("addimg2ts").innerText;
+        let price = document.getElementById("addimg2ps").innerText;
+        console.log(ttl,price);
+        addToCart(image,ttl,price);
+    }
+    function addimg3s()
+    {
+      window.alert("Added to cart sucessfully");
+      let image=document.getElementById("addimg3is").src;
+      let ttl=document.getElementById("addimg3ts").innerText;
+      let price=document.getElementById("addimg3ps").innerText;
+      console.log(ttl,price);
+      addToCart(image,ttl,price);
+    }
+    function addimg4s()
+    {
+      window.alert("Added to cart sucessfully");
+      let image=document.getElementById("addimg4is").src;
+      let ttl=document.getElementById("addimg4ts").innerText;
+      let price=document.getElementById("addimg4ps").innerText;
+      console.log(ttl,price);
+      addToCart(image,ttl,price);
+    }
+    function addimg5s() {
+        window.alert("Added to cart successfully");
+        let image = document.getElementById("addimg5is").src;
+        let ttl = document.getElementById("addimg5ts").innerText;
+        let price = document.getElementById("addimg5ps").innerText;
+        console.log(ttl, price);
+        addToCart(image, ttl, price);
+    }
+    function addimg6s()
+    {
+        window.alert("Added to cart sucessfully");
+        let image = document.getElementById("addimg6is").src;
+        let ttl = document.getElementById("addimg6ts").innerText;
+        let price = document.getElementById("addimg6ps").innerText;
+        console.log(ttl,price);
+        addToCart(image,ttl,price);
+    }
+    function addimg7s()
+    {
+      window.alert("Added to cart sucessfully");
+      let image=document.getElementById("addimg7is").src;
+      let ttl=document.getElementById("addimg7ts").innerText;
+      let price=document.getElementById("addimg7ps").innerText;
+      console.log(ttl,price);
+      addToCart(image,ttl,price);
+    }
+    function addimg8s()
+    {
+      window.alert("Added to cart sucessfully");
+      let image=document.getElementById("addimg8is").src;
+      let title=document.getElementById("addimg8ts").innerText;
+      let price=document.getElementById("addimg8ps").innerText;
+      console.log(title,price);
+      addToCart(image,title,price);
+    } 
+   
+        function addToCart(image, title, price) {
+            const cart = document.getElementById("cart");
+            const cartItems = document.getElementById("cart-items");
+            console.log(cart);
+            console.log(cartItems);
+            // Create a new cart item
+            const cartItem = document.createElement("div");
+            cartItem.innerHTML = `
+                <img src="${image}" alt="${title}">
+                <div>
+                    <h4>${title}</h4>
+                    <p>Price: ${price}</p>
+                    <a href="/payment">BUY NOW</a>
+                </div>
+            `;
+            console.log("thsi" +image);
+            cartItems.appendChild(cartItem);
+            // Show the cart if it's not visible
+            if (cart.style.display === "none") {
+                cart.style.display = "block";
+            }
+            localStorage.setItem("image2",image);
+            localStorage.setItem("ttl2",title);
+            localStorage.setItem("price2",price);
+        }
+        const productTitle = document.getElementById("product-title");
+        const productPrice = document.getElementById("product-price");
+
+        if (title && price) {
+            productTitle.textContent = title;
+            productPrice.textContent = price;
+        }
+        
+    </script>
+</body>
+</html>
